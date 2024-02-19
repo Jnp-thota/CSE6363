@@ -1,7 +1,7 @@
 import numpy as np
 import pickle 
 import matplotlib.pyplot as plt
-class BatchProcessing:
+class LinearRegression:
     def __init__(self, batch_size=32, regularization=0, max_epochs=100, patience=3):
         """Linear Regression using Gradient Descent.
 
